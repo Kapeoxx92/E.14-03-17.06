@@ -1,0 +1,4 @@
+zapytanie 1: SELECT imie, telefon, szczepienie, opis FROM zwierzeta;
+zapytanie 2: SELECT id, imie, wlasciciel FROM zwierzeta WHERE rodzaj = 1;
+zapytanie 3: SELECT imie, nazwa FROM zwierzeta, uslugi WHERE zwierzeta.usluga_id = uslugi.nazwa;
+zapytanie 4: SELECT AVG(cena) FROM uslugi;
